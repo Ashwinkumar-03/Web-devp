@@ -3,7 +3,7 @@
 # AIM:
 
 To develop a webserver to display about top five web application development frameworks.
-assignment fpr today's class 
+assignment for today's class 
 
 
 # DESIGN STEPS:
