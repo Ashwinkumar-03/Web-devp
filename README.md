@@ -31,9 +31,10 @@ Testing the webserver
 
 # PROGRAM:
 
-rom http.server import HTTPserver, baseHTTPRequestHandler
-
 ```
+from http.server import HTTPserver, baseHTTPRequestHandler
+
+
 content = """
 <html>
 <head>
