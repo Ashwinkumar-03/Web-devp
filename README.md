@@ -50,11 +50,13 @@ class HelloHandler(baseHTTPRequestHandler):
     self.send_header('Content_type', 'text/html; charset=utf-8')
     self.end_headers()
     self.wfile.write(content.encode())
-```
+
 
 server_address = ('', 80)
 httpd = HTTPserver(server_address,HelloHandler)
 httpd.serve_forever()
+
+```
 
 # OUTPUT:
 ![output](webserver.png)
